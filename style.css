@@ -18,12 +18,12 @@
 }
 .pie{
     text-align: center;
-    background-color:rgb(171, 214, 173);
+    background-color: darkseagreen;
     width: 90%;
     margin: 0 auto;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+   
 }
 
 #principal {
@@ -44,6 +44,7 @@
 
 h1, img{
     display:inline-block;
+    font-family:Dancing Script;
     }
 .logo{
         margin:5px 0 0 5px;
@@ -107,3 +108,25 @@ p:first-letter { font-size: 180%; color: purple}
     }
    
 }
+a:hover{
+    color: rgb(238, 59, 160);
+    background:#0b0b0b;
+border:0.1em dashed #F60;
+border-radius: 0 0.5em 0 0.5em;
+transition: all 3s ease-in;
+}
+a:visited{
+    color: rgb(48, 186, 57);
+}
+a:active{
+    color: rgb(182, 87, 24);
+}
+a:link{
+    color: rgb(85, 39, 235);
+}
+
+@font-face{
+    font-family:Dancing Script; /*(cualquier nombre con el que convocaremos la fuente)
+    fuente*/
+    src:url(fonts/DancingScript-Regular.otf)/*ruta del archivo de la fuente*/
+    }
